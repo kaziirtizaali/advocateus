@@ -1,0 +1,705 @@
+/***** 1.Global css *****/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    font-size: 16px;
+
+}
+
+h1 {
+    line-height: 32px;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #111111;
+
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #111111;
+}
+
+h3 {
+
+    font-family: 'Playfair Display', serif;
+    color: #111111;
+
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+h5 {}
+
+h6 {
+    font-family: 'Playfair Display', serif;
+    color: #111111;
+    letter-spacing: 2px;
+    font-size: 15px;
+
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/***** 2. Header css *****/
+
+.navbar-logo {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-logo h2 {
+    color: #111111;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #111111;
+    padding-top: 15px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.logo-dot {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #e8bf5d;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    margin-left: 15px;
+    color: #111111;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+    height: 50px;
+    margin-top: 5px;
+
+
+}
+
+.nav-link:hover {
+    color: #e8bf5d;
+    border-bottom: solid 5px #e8bf5d;
+    padding-bottom: 0px;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+
+
+header .fa-bars {
+    font-size: 40px;
+    color: #e8bf5d;
+    padding-top: 10px;
+}
+
+/***** 2. hero css *****/
+.hero-section {
+    background: url(../img/hero.png) no-repeat center top;
+    background-size: cover;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+.hero-heading {
+    padding: 430px 0px 80px 0px;
+}
+
+.hero-tag h1 {
+    color: white;
+    font-size: 44px;
+    line-height: 32px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 4px;
+
+}
+
+.hero-tag {
+    padding-left: 10px;
+    border-left: 2px solid #e8bf5d;
+
+}
+
+.hero-tag h6 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn-custom {
+    padding: 10px 35px;
+    background-color: #e8bf5d;
+    color: #111111;
+    float: right;
+    border-radius: 30px;
+}
+
+.btn-custom:hover {
+    color: #e8bf5d;
+    background-color: #111111;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+
+}
+
+/***** 3. About Me css *****/
+
+.about-us {
+    padding: 60px 0px;
+}
+
+.about-heading {
+    border-left: 2px solid #e8bf5d;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: url(../img/about-heading.png) no-repeat;
+    background-size: 170px 130px;
+}
+
+.about-heading h6 {
+    text-align: justify;
+
+}
+
+.expertise-part h6 {
+    color: #111111;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 40px !important;
+
+}
+
+.history-part {
+    margin-top: 40px;
+}
+
+.history-year {
+    padding-top: 40px;
+}
+
+.history-part h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    padding-right: 10px;
+}
+
+.history-year h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    padding-top: 10px;
+}
+
+.expertise-part {
+    margin-top: 40px;
+}
+
+
+/***** 4. practice-us css *****/
+
+.practice-area {
+    padding: 60px 0px;
+    background-color: #111111;
+}
+
+.practice-heading {
+    border-left: 2px solid #e8bf5d;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: url(../img/practice-heading.png) no-repeat;
+    background-size: 170px 130px;
+
+}
+
+.practice-heading h1 {
+    color: white;
+}
+
+.practice-heading h6 {
+    color: white;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.practice-part h6 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-weight: lighter;
+
+}
+
+.practice-part {
+    margin-top: 30px;
+}
+
+.practice-part .fa {
+    font-size: 36px;
+    color: #e8bf5d;
+}
+
+/***** 5.lawyer-section css *****/
+
+
+
+.lawyer-heading {
+    border-left: 2px solid #e8bf5d;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: url(../img/lawyers-heading.png) no-repeat;
+    background-size: 170px 130px;
+
+}
+
+.lawyer-part {
+    margin-top: 50px;
+}
+
+.lawyer-section {
+    padding: 60px 0px;
+}
+
+/***** testimonial css *****/
+
+.testimonial {
+    padding: 60px 0px;
+    background: url(../img/client-banner.png) no-repeat center top;
+    background-size: cover;
+}
+
+.client-heading {
+    border-left: 2px solid #e8bf5d;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: url(../img/client-heading.png) no-repeat;
+    background-size: 170px 130px;
+
+}
+
+.pagination {
+    margin-top: 40px;
+}
+
+.client-heading h1 {
+    color: white;
+}
+
+.client-heading h6 {
+    color: white;
+}
+
+.carousel-item .fa-quote-left {
+    color: grey;
+}
+
+.carousel-item h6 {
+    text-align: justify;
+    color: white;
+    line-height: 25px;
+}
+
+.carousel-item h3 {
+    color: white;
+}
+
+.carousel-item p {
+    color: white;
+}
+
+.carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+    background: transparent;
+    margin-bottom: -60px !important;
+}
+
+
+/***** 7. Publication section *****/
+
+.publication-section {
+    padding: 60px 0px;
+}
+
+.publication-part {
+    margin-top: 40px;
+}
+
+.publication-heading {
+    border-left: 2px solid #e8bf5d;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: url(../img/publication-heading.png) no-repeat;
+    background-size: 170px 130px;
+
+}
+
+.publication-section .card {
+    border: 0px;
+    border-bottom: 2px solid #e8bf5d;
+    border-radius: 0px;
+}
+
+.publication-section .card h6 {
+    line-height: 28px;
+}
+
+
+.comment-part h6 {
+    font-size: 14px !important;
+}
+
+/***** 7. faq-section *****/
+
+.faq-section {
+    padding: 60px 0px;
+    background-color: #111111;
+}
+
+.faq-heading {
+    border-left: 2px solid #e8bf5d;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background: url(../img/faq-heading.png) no-repeat;
+    background-size: 170px 135px;
+}
+
+.faq-heading h1 {
+    color: white !important;
+    margin-top: 4px;
+}
+
+.faq-heading h6 {
+    color: white !important;
+}
+
+.faq-part {
+    margin-top: 40px;
+}
+
+.list-group-item {
+    background: transparent !important;
+    color: white;
+    border: 0px;
+    border-bottom: 1px solid #e8bf5d;
+    padding: 15px 0px;
+    border-radius: 0px !important;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+.list-group-item:hover {
+    color: #e8bf5d;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+
+}
+
+.faq-part h6 {
+    line-height: 31px;
+}
+
+.faq-part .card {
+    background-color: #e8bf5d !important;
+}
+
+/***** 9.contact-section *****/
+
+
+.contact-section {
+    padding: 60px 0px;
+}
+
+.contact-heading {
+    border-left: 2px solid #e8bf5d;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: url(../img/contact-heading.png) no-repeat;
+    background-size: 170px 130px;
+}
+
+.contact-part {
+    margin-top: 40px;
+}
+
+.contact-part .card {
+    border: 0px !important;
+    -webkit-box-shadow: 0px 5px 12px 0px rgba(50, 50, 50, 0.36);
+    -moz-box-shadow: 0px 5px 12px 0px rgba(50, 50, 50, 0.36);
+    box-shadow: 0px 5px 12px 0px rgba(50, 50, 50, 0.36);
+}
+
+.contact-part .form-control {
+    border: 0px !important;
+    border-bottom: 1px solid grey !important;
+    border-radius: 0px !important;
+}
+
+.btn-custom1 {
+    padding: 10px 35px;
+    background-color: #e8bf5d;
+    color: #111111;
+    border-radius: 30px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.btn-custom1:hover {
+    color: #e8bf5d;
+    background-color: #111111;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+/***** footer css *****/
+
+footer {
+    background-color: #111111;
+}
+
+footer li {
+    color: white;
+    margin-left: 8px;
+}
+
+
+footer .fa:hover {
+    transform: rotate(360deg) !important;
+    color: #e8bf5d;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.social-icon li {
+    list-style: none;
+    color: white;
+    display: inline;
+}
+
+.social-icon {
+    position: absolute;
+    right: 50px;
+}
+
+.social {
+    position: relative;
+}
+
+
+
+
+@media(max-width: 767px) {
+    .hero-heading {
+        padding: 240px 0px 50px 0px;
+    }
+
+    .btn-custom {
+        float: left;
+        margin-left: 50px !important;
+        margin-top: 15px;
+    }
+
+    .about {
+        border: 0px !important;
+    }
+
+    .hero-tag {
+        margin-left: 70px;
+    }
+
+    .hero-tag h1 {
+        font-size: 36px;
+    }
+
+    /***** 3. about us *****/
+
+    .about-us {
+        padding: 30px 0px !important;
+    }
+
+    .history-part {
+        margin-top: 30px;
+    }
+
+    .history-year {
+        padding-top: 30px;
+    }
+
+    .expertise-part {
+        margin-top: 30px;
+    }
+
+    .practice-area {
+        padding: 30px 0px !important;
+
+    }
+
+    /***** lawyer-section css *****/
+
+
+    .lawyer-section {
+        padding: 30px 0px !important;
+    }
+
+    .lawyer-part {
+        margin-top: 30px !important;
+    }
+
+    .lawyer-part img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .lawyer-part {
+        text-align: center;
+    }
+
+
+    /***** testimonial  *****/
+    .testimonial {
+        padding: 30px 0px !important;
+    }
+
+
+    .testimonial-profile img {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    /***** publication section css *****/
+    .publication-section {
+        padding: 30px 0px !important;
+    }
+
+
+    /***** 7. faq-section *****/
+
+    .faq-section {
+        padding: 30px 0px;
+    }
+
+    .faq-heading h6 {
+        text-align: justify;
+    }
+
+    .faq-part {
+        margin-top: 30px !important;
+    }
+
+    .contact-part .card img {
+        margin-top: 30px;
+    }
+
+    footer {
+        text-align: center !important;
+        padding: 10px 0px !important;
+    }
+
+    .social-icon {
+        display: block !important;
+        margin: 0 auto !important;
+    }
+
+    .social-icon li {
+        text-align: center !important
+    }
+
+
+    .social-icon {
+        left: 0 !important;
+        bottom: -3px !important;
+    }
+
+    .card-img img {
+        width: 100% !important;
+    }
+
+}
+
+@media(max-width:576px) {
+    .about-heading {
+        margin: 0px 20px;
+    }
+
+    .practice-heading {
+        margin: 0px 20px;
+    }
+
+    .lawyer-heading {
+        margin: 0px 20px;
+    }
+
+    .client-heading {
+        margin: 0px 20px;
+    }
+
+    .faq-heading {
+        margin: 0px 20px;
+    }
+
+    .contact-heading {
+        margin: 0px 20px;
+    }
+
+    .publication-heading {
+        margin: 0px 20px;
+    }
+
+
+    .hero-tag h1 {
+        font-size: 32px !important;
+    }
+}
+
+@media(max-width: 992px) {
+    .hero-tag h1 {
+        font-size: 30px !important;
+    }
+}
